@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WCalculator</name>
+    </assembly>
+    <members>
+        <member name="F:WCalculator.ViewModel.CalculatorViewModel.addNumberCommand">
+            <summary>The backing field for <see cref="P:WCalculator.ViewModel.CalculatorViewModel.AddNumberCommand"/>.</summary>
+        </member>
+        <member name="P:WCalculator.ViewModel.CalculatorViewModel.AddNumberCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:WCalculator.ViewModel.CalculatorViewModel.AddNumber"/>.</summary>
+        </member>
+        <member name="F:WCalculator.ViewModel.MainPageViewModel.goToCalculatorPageCommand">
+            <summary>The backing field for <see cref="P:WCalculator.ViewModel.MainPageViewModel.GoToCalculatorPageCommand"/>.</summary>
+        </member>
+        <member name="P:WCalculator.ViewModel.MainPageViewModel.GoToCalculatorPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:WCalculator.ViewModel.MainPageViewModel.GoToCalculatorPage"/>.</summary>
+        </member>
+    </members>
+</doc>

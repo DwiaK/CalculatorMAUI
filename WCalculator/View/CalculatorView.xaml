@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WCalculator.View.CalculatorView"
+             Title="Calculator"
+             xmlns:ViewModel="clr-namespace:WCalculator.ViewModel"
+             x:DataType="ViewModel:CalculatorViewModel"
+             BackgroundColor="#232226"
+             xmlns:Controls="clr-namespace:WCalculator.Controls">
+
+    <!-- Principal -->
+    <Grid>
+        <!-- Definicões -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".20*"/>
+            <RowDefinition Height=".80*"/>
+            <RowDefinition Height=".15*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Input -->
+        <Grid Grid.Row="0" BackgroundColor="#232226">
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".80*"/>
+                <RowDefinition Height=".20*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- Imagem = -->
+            <Grid Grid.Row="1" 
+                  Grid.Column="0">
+                
+                <Image Source="equals" 
+                       HeightRequest="20" 
+                       WidthRequest="20"
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"
+                       Margin="0, 10, 80, 0"/>
+                
+            </Grid>
+            
+            <!-- Resultado -->
+            <Grid Grid.Row="0" 
+                  Grid.Column="1"
+                  HorizontalOptions="Center"
+                  VerticalOptions="End">
+                
+                <Label Text="0" 
+                       TextColor="#57565f"
+                       FontSize="Medium"/>
+                
+            </Grid>
+            
+            <!-- Números e operadores inseridos -->
+            <Grid Grid.Row="1" 
+                  Grid.Column="1"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Start">
+                
+                <Label Text="0" 
+                       TextColor="White"
+                       FontSize="Large"/>
+                
+            </Grid>
+
+        </Grid>
+        
+        <!-- Teclado -->
+        <Grid Grid.Row="1" Margin="10, 40, 10, 10">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Primeira linha -->
+            <Controls:ButtonControl Grid.Row="0" Grid.Column="0" Title="CE"/>
+            <Controls:ButtonControl Grid.Row="0" Grid.Column="1" Title="C"/>
+            <Controls:ButtonControl Grid.Row="0" Grid.Column="2" ImgSource="percent.svg"/>
+            <Controls:ButtonControl Grid.Row="0" Grid.Column="3" ImgSource="divide.svg"/>
+
+            <!-- Segunda linha -->
+            <Controls:ButtonControl Grid.Row="1" Grid.Column="0" Title="7"/>
+            <Controls:ButtonControl Grid.Row="1" Grid.Column="1" Title="8"/>
+            <Controls:ButtonControl Grid.Row="1" Grid.Column="2" Title="9"/>
+            <Controls:ButtonControl Grid.Row="1" Grid.Column="3" ImgSource="xbtn.svg"/>
+
+            <!-- Terceira linha -->
+            <Controls:ButtonControl Grid.Row="2" Grid.Column="0" Title="4"/>
+            <Controls:ButtonControl Grid.Row="2" Grid.Column="1" Title="5"/>
+            <Controls:ButtonControl Grid.Row="2" Grid.Column="2" Title="6"/>
+            <Controls:ButtonControl Grid.Row="2" Grid.Column="3" ImgSource="minus.svg"/>
+
+            <!-- Quarta linha -->
+            <Controls:ButtonControl Grid.Row="3" Grid.Column="0" Title="1"/>
+            <Controls:ButtonControl Grid.Row="3" Grid.Column="1" Title="2"/>
+            <Controls:ButtonControl Grid.Row="3" Grid.Column="2" Title="3"/>
+            <Controls:ButtonControl Grid.Row="3" Grid.Column="3" ImgSource="plus.svg"/>
+
+            <!-- Quinta linha -->
+            <Controls:ButtonControl Grid.Row="4" Grid.Column="0" ImgSource="plusminus.svg"/>
+            <Controls:ButtonControl Grid.Row="4" Grid.Column="1" Title="0"/>
+            <Controls:ButtonControl Grid.Row="4" Grid.Column="2" Title=","/>
+            <Controls:ButtonControl Grid.Row="4" Grid.Column="3" ImgSource="Result.svg"/>
+
+
+        </Grid>
+
+    </Grid>
+    
+</ContentPage>

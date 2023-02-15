@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WCalculator
+build_property.ProjectDir = C:\Users\Gustavo\Desktop\Gustavo\All\Programming\dotNET\Projetos\WCalculator\WCalculator\
+
+[C:/Users/Gustavo/Desktop/Gustavo/All/Programming/dotNET/Projetos/WCalculator/WCalculator/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WCalculator.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Gustavo/Desktop/Gustavo/All/Programming/dotNET/Projetos/WCalculator/WCalculator/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WCalculator.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Gustavo/Desktop/Gustavo/All/Programming/dotNET/Projetos/WCalculator/WCalculator/Controls/ButtonControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WCalculator.Controls.ButtonControl.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\ButtonControl.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\ButtonControl.xaml
+
+[C:/Users/Gustavo/Desktop/Gustavo/All/Programming/dotNET/Projetos/WCalculator/WCalculator/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WCalculator.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Gustavo/Desktop/Gustavo/All/Programming/dotNET/Projetos/WCalculator/WCalculator/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WCalculator.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Gustavo/Desktop/Gustavo/All/Programming/dotNET/Projetos/WCalculator/WCalculator/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WCalculator.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Gustavo/Desktop/Gustavo/All/Programming/dotNET/Projetos/WCalculator/WCalculator/View/CalculatorView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WCalculator.View.CalculatorView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CalculatorView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CalculatorView.xaml

@@ -1,17 +1,17 @@
-*           text        eol=lf
-*.cmd       text        eol=lf
-*.config    text        eol=lf
-*.cs        text        eol=lf
-*.csproj    text        eol=lf
-*.hlsl      text        eol=lf
-*.json      text        eol=lf
-*.md        text        eol=lf
-*.props     text        eol=lf
-*.ps1       text        eol=lf
-*.resx      text        eol=lf
-*.sh        text        eol=lf
-*.sln       text        eol=lf
-*.targets   text        eol=lf
-*.yml       text        eol=lf
-*.sln       text        eol=crlf
-*.snk       binary
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
